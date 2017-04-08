@@ -1,0 +1,385 @@
+/* General tag */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Tahoma, Verdana, Arial, sans-serif;
+	font-size: 12px;
+	color: #555;
+	line-height: 1.3em;
+	background-color: #F4F4F4;
+}
+
+p {
+	margin-top: 0;
+	margin-bottom: 5px;
+	text-align: justify;
+}
+
+a:link, a:visited {
+	outline: none;
+	text-decoration: underline;
+	font-weight: normal;
+	color: #666;
+}
+
+a:hover {
+	text-decoration: none;
+	font-weight: normal;
+	color: #666;
+}
+
+a img {
+	border: none;
+}
+
+input[type="text"], input[type="password"] {
+	margin-top: 2px;
+	padding: 2px;
+	border: 1px solid #DDD;
+}
+
+input[type="checkbox"], input[type="radio"] {
+   background: transparent;
+   border: none;
+}
+
+button, input[type="button"], input[type="submit"], input[type=clear] {
+	background: #8CCCF8;
+	border: solid 1px #6AADDC;
+	color: #FFF;
+	padding: 1px 5px;
+}
+
+form {
+	margin: 0 0;
+	padding: 0 0;
+}
+
+iframe {
+	border: 0px;
+	height: 25px;
+	background-color: #FFF;
+}
+
+/* Template */
+#page {
+	background: transparent url(../images/page_left.png) top left no-repeat;
+}
+
+#page-wrapper {
+	background: transparent url(../images/page_right.png) top right no-repeat;
+	min-height: 165px;
+}
+
+#topcol {
+	margin: 0 33px;
+	background: transparent url(../images/topcol_bg.png) top repeat-x;
+}
+
+#topcol .wrapper {
+	background: transparent url(../images/topcol_leri.png) top left no-repeat;
+}
+
+#topcol .inner-wrapper {
+	background: transparent url(../images/topcol_leri.png) top right no-repeat;
+	height: 31px;
+}
+
+#header {
+	margin: 0 33px;
+	background: transparent url(../images/header_bg.png) top center repeat-x;
+	position: relative;
+}
+
+#header .wrapper {
+	background: transparent url(../images/header_leri.png) top left no-repeat;
+}
+
+#header .inner-wrapper {
+	padding: 2px 0 0 0;
+	background: transparent url(../images/header_leri.png) top right no-repeat;
+	height: 168px;
+}
+
+#header #logo {
+	padding: 0 0 0 20px;
+	overflow: hidden;
+	line-height: 90px;
+	height: 90px;
+	top: 40px;
+	left: 0px;
+	position: absolute;
+}
+
+
+#logo a, #logo a:link, #logo a:hover {
+	padding: 0;
+	margin: 0;
+	font-family: Tahoma, Verdana, Arial, sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	color: #fff;
+	outline: none;
+	text-decoration: none;
+}
+
+#header #header-news {
+	float: right;
+	margin-top: 16px;
+	height: 146px;
+	overflow: hidden;
+}
+
+#header #language {
+	float: right;
+	margin-top: 133px;
+	margin-right: 11px;
+	height: 20px;
+	line-height: 10px;
+}
+
+#language div {
+	float: left;
+	margin-left: 10px;
+}
+
+#language a {
+	text-decoration: none;
+}
+
+#language img {
+	position: relative;
+	top: 1px;
+}
+
+#body {
+	margin: 0 33px;
+	padding: 1px 1px;
+	background-color: #FFF;
+	border: 1px solid #E9E9E9;
+}
+
+#body .wrapper {
+	padding: 10px 10px;
+	background: #FFF url(../images/body_bg.png) top center repeat-x;
+	min-height: 30px;
+}
+
+#body #left-column {
+	float: left;
+	width: 170px;
+}
+
+#body #main-column {
+	margin-left: 187px;
+	margin-right: 5px;
+}
+
+#body #for-hack-only {
+	clear: both;
+}
+
+#footer {
+	padding: 15px 33px;
+	background: transparent url(../images/footer_bg.png) top center no-repeat;
+	text-align: center;
+	font-size: 11px;
+}
+
+/* System */
+#message {
+	margin: 1px 0 10px 0;
+	padding: 5px 10px;
+	background: #FAA;
+	border: solid 1px #F66;
+	font-weight: bold;
+	color: #FFF;
+	display: none;
+}
+
+.module {
+	margin-bottom: 10px;
+	background-color: #F8F8F8;
+	border: 1px solid #DDD;
+}
+
+.module .module-title {
+	padding: 5px 10px;
+	background: transparent url(../images/module-title.png) top repeat-x;
+	height: 17px;
+	color: #999;
+	font-weight: bold;
+}
+
+.module .module-content {
+	padding: 5px 10px 8px 10px;
+}
+
+.module .module-content ul {
+	margin: 3px 0 0 0;
+	padding: 0;
+	list-style: none;
+}
+
+.module .module-content ul li {
+	line-height: 17px;
+}
+
+.module .module-content a, .module .module-content a:link {
+	color: #6AADDC;
+	text-decoration: none;
+}
+
+.module .module-content a:hover {
+	color: #F90;
+}
+
+#news-latest .module-content {
+	width: 170px;
+	height: 104px;
+}
+
+#news-latest .module-content ul li  {
+	padding-left: 10px;
+	background: transparent url(../images/latest_row.png) left center no-repeat;
+}
+
+#news-latest .module-content .small {
+	font-size: 11px;
+	text-align: right;
+}
+
+#main-column h3{
+	margin: 15px 0;
+	padding: 0;
+	font-size: 18px;
+	line-height: 24px;
+}
+
+#main-column h4{
+	margin: 15px 0 3px 0;
+	padding: 0;
+	font-size: 14px;
+	line-height: 16px;
+}
+
+#main-column p{
+	margin-bottom: 15px;
+	padding: 0;
+}
+
+#main-column a, #main-column a:link {
+	color: #6AADDC;
+	text-decoration: none;
+}
+
+#main-column a:hover {
+	color: #F90;
+}
+
+.module-content .small{
+	font-size: 10px;
+}
+
+ul.menu {
+	margin: 0 auto;
+	padding: 5px 0 0 4px;
+	list-style: none;
+	width: 180px;
+}
+
+ul.menu li {
+	margin: 0;
+	padding: 0;
+}
+
+ul.menu li.spacer {
+	height: 7px;
+}
+
+ul.menu li.mainlevel {
+	padding-left: 0;
+}
+
+ul.menu li.childlevel {
+	padding-left: 20px;
+	margin-left: 20px;
+}
+
+ul.menu li a, ul.menu li a:link {
+	line-height: 19px;
+	text-decoration: none;
+	margin: 0;
+	height: 19px;
+	color: #999999;
+}
+
+ul.menu li.mainitem a {
+	padding: 0 0 0 13px;
+	background: url(../images/menu_row.png) left center no-repeat;
+}
+
+ul.menu li.childitem a {
+	margin-left: 17px;
+	padding: 0 0 0 10px;
+	background: url(../images/menuchild_row.png) left center no-repeat;
+}
+
+ul.menu li a:hover {
+	color: #6AADDC;
+	text-decoration: none;
+}
+
+.page-count {
+	float: left;
+	margin-top: 10px;
+	padding: 3px 4px;
+}
+
+.page-count a {
+	padding: 0 5px;
+}
+
+.list {
+	border: 1px solid #DDD;
+}
+
+.list .header {
+	font-weight: bold;
+	text-align: center;
+	background-color: #ECECEC;
+}
+
+.list .row {
+	background-color: #F9F9F9;
+}
+
+.list tr td {
+	padding: 4px 10px;
+}
+
+.add a {
+	background: transparent url(../../../images/add.png) left center no-repeat;
+	padding-left: 20px;
+}
+
+.center {
+	text-align: center;
+}
+
+.red {
+	color: #F00;
+}
+
+.blue {
+	color: #6AADDC;
+}
+
+.gray {
+}
+
+.green {
+	color: #ADDC6A;
+	font-weight: bold;
+}
